@@ -4,6 +4,7 @@ import path from 'path' // ⬅️ pastikan ini di-import
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/BGN-FE/',
   plugins: [vue()],
   resolve: {
     alias: {
